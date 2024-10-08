@@ -56,11 +56,11 @@ Create a .env file in the project root and add your OpenAI API Key and other rel
       DEBUG=True
       DATABASE_URL=your_database_url (if using PostgreSQL)
    ```
-5. ** Run migrations **
+5. **Run migrations**
   ``` bash
       python manage.py migrate
   ```
-6. ** Create a superuser (to access the Django admin) **
+6. **Create a superuser (to access the Django admin)**
   ```bash
       python manage.py createsuperuser
   ```
